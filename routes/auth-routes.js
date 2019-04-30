@@ -54,16 +54,10 @@ module.exports = function(app) {
 			id: req.user.id,
 			firstName: req.user.firstName,
 			lastName: req.user.lastName,
-			employer: req.user.employer,
 			location: req.user.location,
 			hometown: req.user.hometown,
 			profileImgUrl: req.user.profileImgUrl,
 			backgroundColor: req.user.backgroundColor,
-			GitHubUrl: req.user.GitHubUrl,
-			StackOverFlowUrl: req.user.StackOverFlowUrl,
-			LinkedInUrl: req.user.LinkedInUrl,
-			FacebookUrl: req.user.FacebookUrl,
-			introMsg: req.user.introMsg
 		}
 		res.json(userData);
 	});
