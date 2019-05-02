@@ -1,10 +1,12 @@
 html, body {
     height: 100%;
 }
-
 body {
-    background-color: #F4F9F2;
+    background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/indian-food-background-designs-8.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
 }
+
 
 .landing-container-fluid {
     display: flex;

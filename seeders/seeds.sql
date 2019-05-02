@@ -1,4 +1,6 @@
-USE project3_db;
+-- USE project3_db;
+CREATE DATABASE m34t2mrpjkrjnydj;
+USE m34t2mrpjkrjnydj;
 
 -- Seed us some users!
 INSERT INTO users (firstname, lastname, username, googleId) 
